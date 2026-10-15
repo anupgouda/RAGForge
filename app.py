@@ -168,7 +168,7 @@ def load_vector_store():
 def generate_answer(context, question):
 
     model = ChatGoogleGenerativeAI(
-    model="gemini-3.6-flash"
+    model="gemini-3.8-flash"
 )
 
     prompt = f"""
